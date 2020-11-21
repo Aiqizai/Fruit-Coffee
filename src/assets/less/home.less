@@ -1,0 +1,203 @@
+.home{
+  background-color: #f2f2f2;
+
+  .home-nav{
+    display: flex; 
+    line-height: 46px;
+  }
+  .t1{
+    font-weight: bold;
+  }
+
+  .t2{
+    color: #006699;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  /deep/ .home-search .van-search{
+    padding: 0;
+    border-radius: 17px;
+    overflow: hidden;
+  }
+
+  /deep/ .home-search .van-icon{
+    color: #006699;
+  }
+
+  .home-content{
+    padding: 10px 10px 0 10px;
+    margin-top: 46px;
+  }
+
+  .banner-box{
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .pro-bannername{
+    position: absolute;
+    left: 20px;
+    bottom: 35px;
+    padding: 0 5px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #45474A;
+    background-color: rgba(249,243,239,.6);
+    border-radius: 20px;
+  }
+
+  .index-box{
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    bottom: 10px;
+    transform: translateX(-50%);
+    background-color: #f2f2f2;
+    display: flex;
+    border-radius: 10px;
+
+    >div{
+      height: 5px;
+      background-color: #fff;
+      border-radius: 10px;
+      &.active{
+        position: relative;
+        left: 0;
+        transition: all .3s linear;
+        width: 25px;
+        border-radius: 10px;
+        background-color: #006699;
+      }
+    }
+  }
+
+  // .product-box{
+  //   margin-top: 10px;
+  // }
+
+  .deliverySelf-box{
+    // width: 90%;
+    margin: 20px auto 20px;
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .self-box,
+  .delivery-box{
+    flex: 1;
+  }
+
+  .self-box{
+    padding-right: 20px;
+    border-right: 2px solid #999;
+  }
+
+  .delivery-box{
+    padding-left: 20px;
+  }
+
+  .imgBox{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .text1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #212326;
+    margin-bottom: 3px;
+  }
+
+  .text2{
+    font-size: 12px;
+    color: #999;
+  }
+
+  .pro-title-box{
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .pro-title{
+    float: left;
+    padding: 0 15px;
+    height: 32px;
+    color: #444444;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .pro-item{
+    position: relative;
+    width: calc(~"50% - 25px");
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    img{
+      border-radius: 10px;
+    }
+
+    .hot-img{
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      width: 30px;
+      height: 30px;
+    }
+
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+
+    .hot{
+      position: absolute;
+      left: 20px;
+      top: 10px; 
+      width: 24px;
+      text-align: center;
+      line-height: 24px;
+      height: 24px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #006699;
+      color: #fff;
+      font-size: 12px;
+    }
+    
+  }
+
+  .pro-info{
+    margin-top: 10px;
+  }
+
+  .pro-name{
+    margin-bottom: 5px;
+  }
+
+  .pro-enname{
+    margin-bottom: 10px;
+    color: #989898;
+    font-size: 12px;
+  }
+
+  .pro-price{
+    color: #006699;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+}
