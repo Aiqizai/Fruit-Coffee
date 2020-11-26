@@ -1,13 +1,21 @@
 # Fruit-Coffee
 
-## Project setup
+## 项目运行
 ```
-npm install
-```
+# 克隆到本地
+git clone https://github.com/Aiqizai/Fruit-Coffee.git
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+# 进入文件夹
+cd Fruit-Coffee
+
+# 安装依赖
+npm install 或 yarn(推荐)
+
+# 开启本地服务器localhost:8088
+npm run dev
+
+# 发布环境
+npm run build
 ```
 
 ### 项目描述
@@ -32,7 +40,9 @@ npm run serve
 7、安全中心包括修改密码，注销账号，以及退出登录
 
 ```
-### 技术栈
+### 主要技术栈 vue-cli + vue-router + vue-axios + es6 + Vant 
+
+### 技术要点
 ```
 1、使用Vue-cli搭建页面，部分组件使用Vant UI框架
 
