@@ -20,7 +20,7 @@ npm run build
 
 ### 项目描述
 ```
-查看热卖咖啡，在分类中选购自己喜欢的咖啡进行购买结算，从0到1整个流程的咖啡商城。
+咖啡爱好者，适合不同人群的最佳选择。查看热卖咖啡，在分类中选购自己喜欢的咖啡，足不出户就能选购自己喜爱的咖啡送到你的面前的一个咖啡商城。
 ```
 
 ### 实现的功能
@@ -40,7 +40,7 @@ npm run build
 7、安全中心包括修改密码，注销账号，以及退出登录
 
 ```
-### 主要技术栈 vue-cli + vue-router + vue-axios + es6 + Vant 
+### 主要技术栈 vue-cli + vue-router + axios + es6 + + less + Vant 
 
 ### 技术要点
 ```
@@ -50,7 +50,7 @@ npm run build
 
 3、使用Vue-router设置路由，进行页面跳转
 
-4、使用axios，vue-axios发送数据请求 
+4、使用axios发送数据请求 
 
 5、localStorage实现数据持久化
 
@@ -58,5 +58,5 @@ npm run build
 
 7、使用postcss-pxtorem 和 lib-flexible 进行rem适配
 
-8、根据后台返回的token判断是否已经有用户登录
+8、根据后台返回的token判断是否已经有用户登录, 才能进行购买, 查看个人信息
 ```
